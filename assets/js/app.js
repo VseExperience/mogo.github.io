@@ -22,7 +22,7 @@ $(function() {
             return "iOS";
         }
 
-        return "unknown";
+        return userAgent;
     }
     
     alert(getMobileOperatingSystem())
